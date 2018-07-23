@@ -1,0 +1,13 @@
+
+<web-app>
+<servlet>
+<servlet-name>first</servlet-name>
+<servlet-class>com.ij.welcome</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>first</servlet-name>
+<url-pattern>/furl</url-pattern>
+
+</servlet-mapping>
+</web-app>

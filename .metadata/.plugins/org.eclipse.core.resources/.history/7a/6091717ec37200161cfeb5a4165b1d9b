@@ -1,0 +1,44 @@
+package com.ij;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Date;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class welcome extends HttpServlet {@Override
+protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+		throws ServletException, IOException {
+	PrintWriter pw=resp.getWriter();
+	resp.setContentType("application/ms-word");
+	Date d=new Date();
+	
+	pw.print("<div color:'red'><marquee><h1>this is the first program of servlet</h1></marquee></div>");
+	pw.println("<div bgcolor='pink'>this is the time of the day"+d+"</div>");
+	int h=d.getHours();
+	pw.println(h);
+	String name=req.getParameter("n");
+	String pass=req.getParameter("p");
+	
+	int a=Integer.parseInt(pass);
+	
+	if(name.equals("irfan"));
+	
+		pw.println("<marquee>welcome to the web world</marquee>");
+	
+		if (a==122)
+			pw.println("<marquee>welcome to the web world</marquee>");
+		
+	pw.close();
+}
+@Override
+	public void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doPost(req, resp);
+	}
+
+}

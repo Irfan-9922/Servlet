@@ -1,0 +1,13 @@
+1473298901809	Rename resource 'index.jsp'
+1473303705742	Move 'login.jsp' to 'pages'
+1473303709127	Move 'video.jsp' to 'pages'
+1473303713205	Move 'welcome.jsp' to 'pages'
+1473303803235	Delete element
+1473303813735	Move 'index.jsp' to 'WebContent'
+1473303887377	Move 'login.jsp' to 'WebContent'
+1473303890284	Move 'video.jsp' to 'WebContent'
+1473303893050	Move 'welcome.jsp' to 'WebContent'
+1473304328540	Rename type 'logout'
+1473304508734	Rename type 'loguot'
+1473304524218	Rename resource 'logout.jsp'
+1473305073252	Delete element

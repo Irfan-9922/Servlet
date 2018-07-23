@@ -1,0 +1,6 @@
+<form action="/date" action="post">
+usid:<input type="text" name="usid"/><br>
+
+pass:<input type="password" name="pass"/>
+
+</form>

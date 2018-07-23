@@ -1,0 +1,31 @@
+package com.ij;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Date;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class first extends HttpServlet{
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		PrintWriter pw=resp.getWriter();
+		resp.setContentType("text/html");
+		Date d=new Date();
+		//String s=null;
+		
+		
+		pw.println("<h1>the time is"+d+"from deli");
+	}
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+	
+		doGet(req, resp);
+	}
+
+}

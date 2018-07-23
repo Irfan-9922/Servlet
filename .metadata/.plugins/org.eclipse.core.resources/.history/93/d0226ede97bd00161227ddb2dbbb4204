@@ -1,0 +1,26 @@
+<html>
+<title>W3.CSS</title>
+<style>
+nav{
+width:30%;}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="C:\irfan\servlet/w3.css">
+<body>
+
+<div class="w3-container w3-teal"><h1>welcome to Show may room.com</h1></div>
+
+<nav class="w3-sidenav w3-red">
+<a href="home.jsp">HOME</a>
+<a href="material.jsp">material</a>
+<a href="expensiv.jsp">expensiv</a>
+<a href="contact.jsp">contact us</a>
+
+</nav>
+
+<img src="C:\irfan\servlet/irfan.jpg" class="w3-border w3-padding" alt=norway"class="w3-opacity-min" style="width:60%;height:100%">
+<footer class="w3-container w3-teal"><h1><center>all wright reserved</center></h1></footer>
+
+</body>
+
+
+</html> 

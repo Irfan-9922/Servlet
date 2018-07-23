@@ -1,0 +1,13 @@
+package tcomretor;
+
+import java.util.TreeSet;
+
+public class comretor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeSet t=new TreeSet(new mycomretor);
+
+	}
+
+}

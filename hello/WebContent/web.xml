@@ -1,0 +1,14 @@
+<web-app>
+<servlet>
+
+<servlet-name>abcd</servlet-name>
+<servlet-class>com.ij.welcome</servlet-class>
+</servlet>
+<servlet-mapping>
+
+<servlet-name>abcd</servlet-name>
+<url-pattern>/hello</url-pattern>
+
+</servlet-mapping>
+
+</web-app>

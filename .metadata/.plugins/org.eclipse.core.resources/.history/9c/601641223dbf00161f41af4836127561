@@ -1,0 +1,13 @@
+package tcomretor;
+
+import java.util.NavigableMap;
+
+public class mycomretor implements Comparable {
+
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,33 @@
+<html>
+<title>W3.CSS</title>
+<style>
+nav{
+width:30%;}</style>
+<style>
+.mySlides{display:none;}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="C:\irfan\servlet/w3.css">
+<body>
+
+<div class="w3-content w3-section" style="max-width:500px">
+<img class="mySlides"src="irfan.jpg"style="width:100%">
+<img class="mySlides"src="irfan1.jpg"style="width:100%">
+<img class="mySlides"src="irfan2.jpg"style="width:100%">
+<img class="mySlides"src="irfan3.jpg"style="width:100%">
+<img class="mySlides"src="irfan4.jpg"style="width:100%">
+</div>
+<script type="text/javascript">var myIndex=0;
+carousel();
+function crousel(){
+vari;
+var x=document.getElementsByClassName("MySlides");
+for(i=0;i<x.length;i++){
+x[i].style.display="none";}
+myIndex++;
+if(myIndex > x.length){
+myIndex=1;}
+x[myIndex-1].style.display="block";setTimeout(carousel,2000);}</script>
+</body>
+
+
+</html> 

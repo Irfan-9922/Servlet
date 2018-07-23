@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>wish</servlet-name>
+<servlet-class>foll.WishServ</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>wish</servlet-name>
+<url-pattern>/jim</url-pattern>
+</servlet-mapping>
+
+</web-app>

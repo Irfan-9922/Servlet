@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>f</servlet-name>
+<servlet-class>com.ij.first</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>f</servlet-name>
+<url-mapping>/k</url-mapping>
+</servlet-mapping>
+</web-app>

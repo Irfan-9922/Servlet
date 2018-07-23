@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <web-app>
+<servlet>
+<servlet-name>f</servlet-name>
+<servlet-class>com.ij.first</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>f</servlet-name>
+<url-mapping>/k</url-mapping>
+</servlet-mapping>
+</web-app> -->
+<!-- <web-app>
+<servlet>
+<servlet-name>fi</servlet-name>
+<servlet-class>com.ij.first1</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>fi</servlet-name>
+<url-pattern>/test</url-pattern>
+
+</servlet-mapping>
+</web-app> -->
+<web-app>
+<servlet>
+<servlet-name>first</servlet-name>
+<servlet-class>com.ij.first1</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>first</servlet-name>
+<url-pattern>/furl</url-pattern>
+
+</servlet-mapping>

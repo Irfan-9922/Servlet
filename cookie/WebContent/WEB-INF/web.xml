@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app> 
+<servlet>
+<servlet-name>f</servlet-name>
+<servlet-class>com.ik.ck0</servlet-class>
+</servlet>
+<servlet-mapping>
+
+<servlet-name>f</servlet-name>
+<url-pattern>/furl</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>g</servlet-name>
+<servlet-class>com.ij.ck2</servlet-class>
+</servlet>
+<servlet-mapping>
+
+<servlet-name>g</servlet-name>
+<url-pattern>/ck2</url-pattern>
+<!-- <welcome-file-list>
+
+<welcome-file>form.html</welcome-file>
+</welcome-file-list> -->
+</servlet-mapping>
+
+</web-app>

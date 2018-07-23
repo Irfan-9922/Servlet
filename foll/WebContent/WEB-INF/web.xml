@@ -1,0 +1,12 @@
+
+<web-app>
+<servlet>
+<servlet-name>abc</servlet-name>
+<servlet-class>com.foll.Wishsrv</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-class>abc</servlet-class>
+<url-pattern>test1</url-pattern>
+</servlet-mapping>
+</web-app>
+

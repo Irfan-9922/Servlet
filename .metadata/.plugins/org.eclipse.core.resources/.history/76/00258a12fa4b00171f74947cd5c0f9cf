@@ -1,0 +1,43 @@
+/**JAVABOSS @COPYWRIGHTS ALL RIGHTS ARE RESERVED
+ * 
+ */
+package com.connection;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+/**
+ * @author :IRFAN
+ *TIME:12:06:46 am
+ * DATE:08-Jun-2017
+ *PROJECTNAME:connection
+ */
+public class insertrecord {
+	public static String name;
+	public static String adress;
+	public static int no;
+	public static int clas;
+	public static void main(String[] args) throws SQLException {
+	PreparedStatement ps=null;
+	ResultSet rs=null;
+	Connection con=connection_test.getcon();
+	ps=con.prepareStatement("insert into student values(?,?,?)");
+	ps.setString(2, name);
+	ps.setString(3, adress);
+	ps.setInt(1, no);
+	
+	 rs=ps.executeQuery();
+	while(rs.next()){
+		if(rs==null){
+			System.out.println("record is not inserted");
+		}
+		else{
+			System.out.println("inserted");
+		}
+	}
+	
+	
+	}
+}

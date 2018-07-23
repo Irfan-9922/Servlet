@@ -1,0 +1,11 @@
+
+<web-app>
+<servlet>
+<servlet-name>log</servlet-name>
+<servlet-class>com.login.valid</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>log</servlet-name>
+<url-pattern>date</url-pattern>
+</servlet-mapping>
+</web-app>

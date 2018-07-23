@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ij.first&apos; to &apos;first1&apos;&#x0D;&#x0A;- Original project: &apos;first&apos;&#x0D;&#x0A;- Original element: &apos;com.ij.first&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ij.first1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;first&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ij{first.java[first" matchStrategy="1" name="first1" qualified="false" references="true" similarDeclarations="false" stamp="1481134224407" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>f</servlet-name>
+<servlet-class>com.ij.cooki</servlet-class>
+
+</servlet>
+<servlet-mapping>
+
+<servlet-name>f</servlet-name>
+<url-pattern>/furl</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>s</servlet-name>
+<servlet-class>com.ij.cook2</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>s</servlet-name>
+<url-pattern>/surl</url-pattern>
+</servlet-mapping>
+</web-app>
